@@ -9,14 +9,10 @@ import SideMenu from "../components/SideMenu";
 
 function Home(){
     return(
-    <div className="row">  
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <Filter/>
-          </div>
-          <div class="col-4 col-md-2">
-            <Profile/>
-          </div>
+    <div className="row">
+        <div class="d-flex justify-content-around">
+          <Filter/>
+          <Profile/>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8">

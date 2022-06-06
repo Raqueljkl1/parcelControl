@@ -5,13 +5,13 @@ import { Button, Row } from 'reactstrap'
 export default function ProfileModal() {
   return (
     <Row>
-      <Button>
+      <Button color='link'>
           Trocar foto de Perfil
       </Button>
-      <Button>
+      <Button color='link'>
           Resetar a Senha
-      </Button>
-      <Button>
+      </Button >
+      <Button color='link'>
           Sair
       </Button>
     </Row>

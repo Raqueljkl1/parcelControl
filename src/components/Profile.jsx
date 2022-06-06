@@ -8,8 +8,9 @@ export default function Profile() {
     console.log(modalView);
 
     return(
-    <div className="d-flex justify-content-center p-2">
-       <Button className="btn btn-profile position-fixed">
+    // <div className="d-flex justify-content-center p-2">
+    <div>
+       <Button className="btn btn-profile">
            <img src={user} alt="user" className="image-profile" onClick={() => setModalView(!modalView)}/>
        </Button>
        { modalView && <ProfileModal/> }
